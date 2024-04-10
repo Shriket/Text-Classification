@@ -1,0 +1,9 @@
+
+in line 19 split code
+# Split Data
+
+x_train, x_tmp, y_train, y_tmp = train_test_split(x, y, train_size=0.6, random_state= 51)
+
+x_val, x_test, y_val, y_test = train_test_split(x_tmp, y_tmp, test_size=0.5, random_state= 51)
+
+The 0.5 is used to split the remaining 40% of the data (stored in x_tmp and y_tmp) into two equal parts: validation and test sets. Each of these sets will be 20% of the original data, which is why 0.5 is used.
