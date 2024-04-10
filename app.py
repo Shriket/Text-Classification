@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 st.set_page_config(page_title="Text Classification" , page_icon=':flag-pa:',layout='wide')
-st.title('Text Classification')
+st.title('★ Text Classification ★')
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
 # ##################################################################################################
@@ -27,9 +27,7 @@ st.write('')
 st.write('')
 st.write('')
 st.write('')
-st.write('')
-st.write('')
-st.markdown('#### Text Classification for Active vs. Passive Voice Detection')
+st.markdown('#### 💎Text Classification for Active vs. Passive Voice Detection ')
 
 
 st.write('')
