@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 st.set_page_config(page_title="Text Classification" , page_icon=':flag-pa:',layout='wide')
-st.title('★ Text Classification ★')
+st.title('☆ Text Classification ☆')
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
 # ##################################################################################################
@@ -26,7 +26,6 @@ def prediction(text):
 st.write('')
 st.write('')
 st.write('')
-st.write('')
 st.markdown('#### 💎Text Classification for Active vs. Passive Voice Detection ')
 
 
@@ -34,14 +33,10 @@ st.write('')
 st.write('')
 txt = st.text_area('Write Your Sentence')
 
-
-st.write('')
 st.write('')
 st.write('')
 btn = st.button('Predict')
 
-st.write('')
-st.write('')
 st.write('')
 
 if btn:
@@ -50,8 +45,6 @@ if btn:
 
 
 
-st.write('')
-st.write('')
 st.write('')
 st.write('')
 st.markdown('<span>All code can be found here <a href="https://github.com/Shriket/Text-Classification.git">Text Classification</a></span>',unsafe_allow_html=True)
